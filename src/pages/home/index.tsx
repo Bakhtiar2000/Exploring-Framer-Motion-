@@ -1,9 +1,12 @@
 import Container from "@/components/ui/Container";
+import HeroSection from "./HeroSection";
+import AboutUsSection from "./AboutUsSection";
 
 const Home = () => {
   return (
     <Container>
-      <h2>Home</h2>
+      <HeroSection />
+      <AboutUsSection />
     </Container>
   );
 };
