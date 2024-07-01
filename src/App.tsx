@@ -1,13 +1,8 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+import MainLayout from "./components/layouts/MainLayout";
 
 function App() {
-  return (
-    <>
-      <div>React</div>
-      <Button></Button>
-    </>
-  );
+  return <MainLayout />;
 }
 
 export default App;
