@@ -1,13 +1,12 @@
-import Container from "@/components/ui/Container";
 import HeroSection from "./HeroSection";
 import AboutUsSection from "./AboutUsSection";
 
 const Home = () => {
   return (
-    <Container>
+    <div>
       <HeroSection />
       <AboutUsSection />
-    </Container>
+    </div>
   );
 };
 
